@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Form</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+    <header>
+        <h1><img src="logo1.png" id="logo" alt="logo" width="50px" height="50px">Fit Mate</h1>
+    </header>
+    <main>
+        <div id="emoji-s">
+            <p class="emoji" >❚█══█❚</p>
+            <p class="emoji" >❚█══█❚</p>
+            <p class="emoji" >❚█══█❚</p>
+            <p class="emoji" >❚█══█❚</p>
+           </div>
+        <div>
+           <a id="previous_page" href="form1.html">previous page</a>
+        <form action="">
+            <legend>Additional Gym Details</legend>
+            <label class="heading" for="">Fitness Goals</label><br>
+            <div id="fitnessdiv">
+                <div>
+                    <label for="">Weight Loss</label><br><br>
+                    <label for="">Muscle Gain</label><br><br>
+                    <label for="">Endurance </label><br><br>
+                    <label for="">Flexibility </label><br><br>
+                </div>
+                <div>
+                    <input type="checkbox" name="weight_loss" class="checkbox"> <br> <br>
+                    <input type="checkbox" name="muscle_gain" class="checkbox"><br> <br>
+                    <input type="checkbox" name="endurance" class="checkbox"><br> <br>
+                    <input type="checkbox" name="flexibility" class="checkbox"><br> <br>
+
+                </div>
+            </div>
+            <label class="heading" for="">Preferred Workouts</label><br>
+            <div id="fitnessdiv">
+                <div>
+                    <label for="">Cardio</label><br><br>
+                    <label for="">Strength Training<br><br>
+                    <label for="">Yoga </label><br><br>
+                </div>
+                <div>
+                    <input type="checkbox" name="cardio" class="checkbox"> <br> <br>
+                    <input type="checkbox" name="strength Training" class="checkbox"><br> <br>
+                    <input type="checkbox" name="yoga" class="checkbox"><br> <br>
+
+                </div>
+            </div>
+            <label class="heading" for="">Preferred Time for Gym</label><br>
+            <div id="fitnessdiv">
+                <div>
+                    <label for="">Morning</label><br><br>
+                    <label for="">Evening</label><br><br>
+                </div>
+                <div>
+                    <input type="checkbox" name="morning" class="checkbox"> <br> <br>
+                    <input type="checkbox" name="evening" class="checkbox"><br> <br>
+                </div>
+            </div>
+            <div class="personal_contact" >
+                <div class="heading">Emergency Contact</div> <br><br>
+                    <label for="">Name</label> <br>
+                    <input type="text" name="name" id="name" placeholder="Enter emergency contact name" ><br><br>
+            
+                    <label for="">Phone Number</label> <br>
+                    <input type="tel" maxlength="14" name="name" id="name" placeholder="Enter contact number" ><br><br>
+
+                    <label for="">Relationship</label>
+                    <select name="" id="relationship">
+                        <option value="parent">Parent</option>
+                        <option value="spouse">Spouse</option>
+                        <option value="sibling">Sibling</option>    
+                        <option value="friend">Friend</option>
+                    </select>
+            </div><br><br>
+            <label class="heading" for="">Additional Services</label><br>
+            <div id="services">
+                <label id="ctrlclick" for="">Choose multiple options using Ctrl+Click:</label> <br><br>
+                <select id="services" name="services" multiple size="3">
+                    <option value="trainer">Personal Trainer</option>
+                    <option value="diet">Diet Consultation</option>
+                    <option value="plan">Customized Fitness Plan</option>
+                </select>
+            </div>
+            <br> <br>
+
+            <div id="terms">
+                <br><br>
+                <label for="">I agree to <a href="#terms">terms</a> and <a href="#conditions">conditions</a> *.</label>
+                <input type="checkbox" required value="condition accepted" id="condtion">
+            </div>
+            <br><br>
+            <input type="submit" value="submit" id="submit" name="submit">
+            <br><br>    
+        </form>
+    </div>
+    
+    </main>
+
+   
+    <br><br>
+    <footer>
+        <h1>&copy2023</h1>
+    </footer>
+</body>
+</html>
+

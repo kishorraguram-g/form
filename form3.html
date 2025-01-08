@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Additional Gym Details</title>
+    <link rel="stylesheet" href="form3.css">
+</head>
+<body>
+    <header>
+        <h1><img src="logo1.png" id="logo" alt="logo" width="50px" height="50px">Fit Mate</h1>
+    </header>
+    <div id="form2">
+        <form action="final_submission.html">
+            <h1>Additional Gym Details</h1>
+            
+            <label class="heading" for="goals">Fitness Goals</label><br>
+            <label for="">Weight Loss</label>
+            <input type="checkbox" name="goal" id="weight_loss" value="Weight Loss">
+            <input type="checkbox" name="goal" id="muscle_gain" value="Muscle Gain"> Muscle Gain<br>
+            <input type="checkbox" name="goal" id="endurance" value="Endurance"> Endurance<br>
+            <input type="checkbox" name="goal" id="flexibility" value="Flexibility"> Flexibility<br><br>
+            
+  
+            <label class="heading"  for="workout">Preferred Workouts</label><br>
+            <input type="checkbox" name="workout" id="cardio" value="Cardio"> Cardio<br>
+            <input type="checkbox" name="workout" id="strength" value="Strength Training"> Strength Training<br>
+            <input type="checkbox" name="workout" id="yoga" value="Yoga"> Yoga<br><br>
+            
+            <!-- Preferred Gym Time -->
+            <label  class="heading" for="gym_time">Preferred Time for Gym</label><br>
+            <input type="radio" name="gym_time" value="Morning" id="morning"> Morning<br>
+            <input type="radio" name="gym_time" value="Afternoon" id="afternoon"> Afternoon<br>
+            <input type="radio" name="gym_time" value="Evening" id="evening"> Evening<br><br>
+            
+            <!-- Emergency Contact -->
+            <h3>Emergency Contact</h3>
+            <label for="emergency_name">Name</label><br>
+            <input type="text" name="emergency_name" id="emergency_name" placeholder="Enter emergency contact name"><br><br>
+            
+            <label for="emergency_number">Phone Number</label><br>
+            <input type="tel" name="emergency_number" id="emergency_number" placeholder="Enter contact number"><br><br>
+            
+            <label for="relationship">Relationship</label><br>
+            <select name="relationship" id="relationship">
+                <option value="parent">Parent</option>
+                <option value="spouse">Spouse</option>
+                <option value="sibling">Sibling</option>
+                <option value="friend">Friend</option>
+            </select><br><br>
+            
+            <!-- Additional Services -->
+            <h3>Additional Services</h3>
+            <input type="checkbox" name="services" id="trainer" value="Personal Trainer"> Personal Trainer<br>
+            <input type="checkbox" name="services" id="diet" value="Diet Consultation"> Diet Consultation<br>
+            <input type="checkbox" name="services" id="custom_plan" value="Custom Plan"> Customized Fitness Plan<br><br>
+            
+            <!-- Terms and Conditions -->
+            <input type="checkbox" name="terms" id="terms" required> I agree to the terms and conditions<br><br>
+            
+            <!-- Navigation Buttons -->
+            <button type="button" onclick="window.location.href='form1.html'">Previous</button>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
